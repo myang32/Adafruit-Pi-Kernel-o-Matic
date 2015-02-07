@@ -48,4 +48,9 @@ Compile [adafruit-raspberrypi-linux][1] using the `rpi-3.15.y` branch:
 ~$ sudo adabuild -r https://github.com/adafruit/adafruit-raspberrypi-linux -b rpi-3.15.y
 ```
 
+Compile for Docker
+
+```
+sudo adabuild -1 /vagrant/v1_docker -2 /vagrant/v2_docker
+```
 [1]: https://github.com/adafruit/adafruit-raspberrypi-linux
